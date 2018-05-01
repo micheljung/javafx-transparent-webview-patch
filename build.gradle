@@ -1,0 +1,14 @@
+group 'com.github.micheljung.transparentwebview'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.javassist:javassist:3.20.0-GA'
+}
