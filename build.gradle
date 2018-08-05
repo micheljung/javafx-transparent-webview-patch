@@ -9,6 +9,12 @@ repositories {
     mavenCentral()
 }
 
+jar {
+    manifest {
+        attributes "Premain-Class": "com.github.micheljung.transparentwebview.TransparentWebViewPatch"
+    }
+}
+
 dependencies {
     compile 'org.javassist:javassist:3.20.0-GA'
 }
